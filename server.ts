@@ -8,7 +8,7 @@ import session from "express-session";
 import { createServer as createViteServer } from "vite";
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Trust proxy for secure cookies in AI Studio/Cloud Run
 app.set("trust proxy", 1);
