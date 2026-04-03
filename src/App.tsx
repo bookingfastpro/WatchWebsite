@@ -160,9 +160,9 @@ const Home = () => {
                 Expertise Professionnelle Certifiée
               </div>
               
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-8 leading-[0.9] tracking-tighter">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-8 leading-[1.1] tracking-tight">
                 La référence des <br />
-                <span className="text-gradient-gold italic">collectionneurs</span>
+                <span className="text-gradient-gold italic pr-2">collectionneurs</span>
               </h1>
               
               <p className="text-lg md:text-xl text-white/50 mb-12 max-w-lg leading-relaxed font-light">
@@ -293,9 +293,9 @@ const Home = () => {
               viewport={{ once: true }}
             >
               <h2 className="text-xs uppercase tracking-[0.5em] text-gold-500/60 font-bold mb-6">Notre Rôle</h2>
-              <h3 className="text-3xl md:text-5xl font-display font-bold mb-8 leading-tight tracking-tighter">
+              <h3 className="text-3xl md:text-5xl font-display font-bold mb-8 leading-tight tracking-tight">
                 L'intermédiaire <br />
-                <span className="text-gradient-gold italic">professionnel</span> de confiance
+                <span className="text-gradient-gold italic pr-2">professionnel</span> de confiance
               </h3>
               <p className="text-white/50 text-lg font-light leading-relaxed mb-8">
                 MMW Watches n'est pas qu'une simple plateforme. Nous agissons comme un tiers de confiance rigoureux entre acheteurs et vendeurs. Notre expertise de 4 ans nous permet de filtrer, vérifier et garantir chaque transaction.
@@ -341,7 +341,7 @@ const Home = () => {
       <section className="py-24 max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-xs uppercase tracking-[0.5em] text-gold-500/60 font-bold mb-6">Transactions Sécurisées</h2>
-          <h3 className="text-3xl md:text-5xl font-display font-bold tracking-tighter">Votre sérénité est notre <span className="text-gradient-gold italic">priorité</span></h3>
+          <h3 className="text-3xl md:text-5xl font-display font-bold tracking-tight">Votre sérénité est notre <span className="text-gradient-gold italic pr-2">priorité</span></h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -499,9 +499,9 @@ const About = () => {
           viewport={{ once: true }}
         >
           <h2 className="text-xs uppercase tracking-[0.5em] text-gold-500/60 font-bold mb-6">L'histoire de MMW</h2>
-          <h1 className="text-4xl md:text-6xl font-display font-bold mb-8 leading-tight tracking-tighter">
+          <h1 className="text-4xl md:text-6xl font-display font-bold mb-8 leading-tight tracking-tight">
             Une passion <br />
-            <span className="text-gradient-gold italic">intemporelle</span>
+            <span className="text-gradient-gold italic pr-2">intemporelle</span>
           </h1>
           
           <div className="space-y-6 text-white/50 text-lg font-light leading-relaxed">
@@ -537,7 +537,7 @@ const Contact = () => {
     <div className="pt-32 pb-24 max-w-7xl mx-auto px-6">
       <div className="text-center mb-20">
         <h2 className="text-xs uppercase tracking-[0.5em] text-gold-500/60 font-bold mb-6">Contactez-nous</h2>
-        <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter">Parlons de votre <span className="text-gradient-gold italic">prochain</span> projet</h1>
+        <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tight">Parlons de votre <span className="text-gradient-gold italic pr-2">prochain</span> projet</h1>
       </div>
 
       <div className="max-w-3xl mx-auto">
