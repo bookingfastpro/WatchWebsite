@@ -177,18 +177,6 @@ const Home = () => {
                 >
                   Explorer la collection <ChevronRight size={20} />
                 </Link>
-                
-                <div className="flex -space-x-3">
-                  {[1, 2, 3].map((i) => (
-                    <div key={i} className="w-10 h-10 rounded-full border-2 border-[#0a0a0a] bg-neutral-800 overflow-hidden">
-                      <img src={`https://picsum.photos/seed/expert${i}/100/100`} alt="Expert" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
-                    </div>
-                  ))}
-                  <div className="pl-6 flex flex-col justify-center">
-                    <span className="text-white text-xs font-bold">+50 Experts</span>
-                    <span className="text-white/40 text-[10px] uppercase tracking-wider">Vendeurs vérifiés</span>
-                  </div>
-                </div>
               </div>
             </motion.div>
 
@@ -298,12 +286,12 @@ const Home = () => {
                 <span className="text-gradient-gold italic pr-2">professionnel</span> de confiance
               </h3>
               <p className="text-white/50 text-lg font-light leading-relaxed mb-8">
-                MMW Watches n'est pas qu'une simple plateforme. Nous agissons comme un tiers de confiance rigoureux entre acheteurs et vendeurs. Notre expertise de 4 ans nous permet de filtrer, vérifier et garantir chaque transaction.
+                MMW Watches n'est pas qu'une simple plateforme. Nous garantissons une transaction sécurisée et transparente pour chaque collectionneur. Notre expertise de 4 ans nous permet de filtrer, vérifier et garantir chaque pièce.
               </p>
               <ul className="space-y-4">
                 {[
-                  "Sélection drastique des vendeurs partenaires",
-                  "Inspection physique de chaque garde-temps",
+                  "Sélection rigoureuse des garde-temps",
+                  "Inspection physique de chaque pièce",
                   "Vérification de la provenance et des documents",
                   "Accompagnement personnalisé de A à Z"
                 ].map((item, i) => (
