@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Syne", sans-serif;
+  
+  --color-gold-50: #fffaf0;
+  --color-gold-100: #fef0d5;
+  --color-gold-200: #fcdc9d;
+  --color-gold-300: #f9c15d;
+  --color-gold-400: #f6a12b;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b8860b;
+  --color-gold-700: #996515;
+  --color-gold-800: #7a4d12;
+  --color-gold-900: #5c390d;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0a0a0a] text-white/90 antialiased selection:bg-gold-500/30 selection:text-gold-900;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-2xl border border-white/[0.05];
+  }
+  .glass-dark {
+    @apply bg-black/80 backdrop-blur-3xl border border-white/[0.05];
+  }
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-gold-400 via-gold-600 to-gold-800;
+  }
+  .card-shadow {
+    @apply shadow-[0_10px_40px_-15px_rgba(0,0,0,0.08)];
+  }
+  .card-shadow-hover {
+    @apply shadow-[0_20px_60px_-15px_rgba(212,175,55,0.2)];
+  }
+}

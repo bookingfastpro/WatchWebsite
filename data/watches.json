@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "name": "Royal Oak Selfwinding",
+    "brand": "Audemars Piguet",
+    "price": 45000,
+    "type": "Sport",
+    "description": "The Royal Oak Selfwinding in stainless steel with a blue 'Grande Tapisserie' dial.",
+    "specs": {
+      "movement": "Calibre 4302",
+      "material": "Stainless Steel",
+      "powerReserve": "70 hours",
+      "waterResistance": "50m",
+      "year": "2022",
+      "set": "Full Set"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Submariner Date",
+    "brand": "Rolex",
+    "price": 12500,
+    "type": "Sport",
+    "description": "The Oyster Perpetual Submariner Date in Oystersteel with a Cerachrom bezel insert in black ceramic.",
+    "specs": {
+      "movement": "Calibre 3235",
+      "material": "Oystersteel",
+      "powerReserve": "70 hours",
+      "waterResistance": "300m",
+      "year": "2023",
+      "set": "Full Set"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Nautilus 5711/1A",
+    "brand": "Patek Philippe",
+    "price": 120000,
+    "type": "Classic",
+    "description": "With the rounded octagonal shape of its bezel, the ingenious porthole construction of its case, and its horizontally embossed dial.",
+    "specs": {
+      "movement": "Calibre 26-330 S C",
+      "material": "Steel",
+      "powerReserve": "45 hours",
+      "waterResistance": "120m",
+      "year": "2021",
+      "set": "Boîte uniquement"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "name": "Explorer II",
+    "brand": "Rolex",
+    "price": 8500,
+    "type": "Sport",
+    "description": "",
+    "specs": {
+      "movement": "Mécanique",
+      "material": "Acier",
+      "powerReserve": "48h",
+      "waterResistance": "100m",
+      "year": "2018",
+      "set": "Montre seule"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?auto=format&fit=crop&q=80&w=800"
+    ],
+    "id": "1774815593707"
+  },
+  {
+    "id": "4",
+    "name": "Datejust 116334",
+    "brand": "Rolex",
+    "price": 8500,
+    "type": "Classic",
+    "description": "Rolex Datejust 116334 avec un magnifique cadran bleu. Diamètre de 41mm, lunette cannelée et bracelet Oyster. État très bon. Garantie Rolex jusqu'en Mars 2027.",
+    "specs": {
+      "movement": "Remontage automatique",
+      "material": "Acier / Or blanc",
+      "powerReserve": "48h",
+      "waterResistance": "100m",
+      "year": "2022",
+      "set": "Boîte, Sur boîte, Livrets Rolex, Carte de service Rolex"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1587836374828-4dbaba94cf0e?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Santos 100",
+    "brand": "Cartier",
+    "price": 5500,
+    "type": "Classic",
+    "description": "Cartier Santos 100 Référence W200737G. Boîtier de 38mm, mouvement automatique. État très bon, livré en Full set.",
+    "specs": {
+      "movement": "Automatique",
+      "material": "Acier",
+      "powerReserve": "42h",
+      "waterResistance": "100m",
+      "year": "2016",
+      "set": "Full set"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Royal Oak Offshore",
+    "brand": "Audemars Piguet",
+    "price": 14900,
+    "type": "Sport",
+    "description": "Audemars Piguet Royal Oak Offshore de 2011. Livrée avec sa boîte et son extrait d'archive.",
+    "specs": {
+      "movement": "Automatique",
+      "material": "Acier",
+      "powerReserve": "50h",
+      "waterResistance": "100m",
+      "year": "2011",
+      "set": "Box & Extrait d’archive"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1590739225287-bd21524b12c3?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "GMT-Master II 116710BLNR 'Batman'",
+    "brand": "Rolex",
+    "price": 13800,
+    "type": "Sport",
+    "description": "La Rolex GMT-Master II 116710BLNR, affectueusement appelée Batman en raison de sa lunette bicolore noire et bleue, est devenue l’une des montres les plus iconiques de la marque. Introduite en 2013, elle allie robustesse, élégance et fonctionnalité grâce à son boîtier Oyster en acier, son mouvement précis et la fonction GMT permettant d’afficher deux fuseaux horaires.",
+    "specs": {
+      "movement": "Mécanique automatique (Calibre 3186)",
+      "material": "Oystersteel",
+      "powerReserve": "48h",
+      "waterResistance": "100m",
+      "year": "2017",
+      "set": "FULL SET"
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?auto=format&fit=crop&q=80&w=800"
+    ]
+  }
+]
